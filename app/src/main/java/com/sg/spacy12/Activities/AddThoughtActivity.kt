@@ -1,4 +1,4 @@
-package com.sg.spacy12.Activities
+package com.sg.spacy12.activities
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
@@ -7,13 +7,14 @@ import android.view.View
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.firestore.FieldValue
 import com.google.firebase.firestore.FirebaseFirestore
+import com.sg.spacy12.R
 import com.sg.spacy12.databinding.ActivityAddThoughtBinding
 import com.sg.spacy12.utilities.*
+
 
 class AddThoughtActivity : AppCompatActivity() {
     var selectedCategory= FUNNY
     lateinit var binding:ActivityAddThoughtBinding
-
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         binding= ActivityAddThoughtBinding.inflate(layoutInflater)

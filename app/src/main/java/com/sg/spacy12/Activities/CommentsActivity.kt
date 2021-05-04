@@ -1,4 +1,4 @@
-package com.sg.spacy12.Activities
+package com.sg.spacy12.activities
 
 import android.content.Context
 import android.content.Intent
@@ -17,7 +17,6 @@ import com.google.firebase.firestore.FirebaseFirestore
 import com.google.firebase.firestore.Query
 import com.sg.spacy12.R
 import com.sg.spacy12.adapters.CommentsAdapter
-import com.sg.spacy12.databinding.ActivityAddThoughtBinding
 import com.sg.spacy12.databinding.ActivityCommentsBinding
 import com.sg.spacy12.interfaces.CommentOptionClickListener
 import com.sg.spacy12.model.Comment

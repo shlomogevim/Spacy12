@@ -9,12 +9,12 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Spacy12">
-        <activity android:name=".Activities.LoginActivity"></activity>
-        <activity android:name=".Activities.CreateUserActivity" />
-        <activity android:name=".Activities.CommentsActivity" />
-        <activity android:name=".Activities.AddThoughtActivity" />
-        <activity android:name=".Activities.UpdateCommentActivity" />
-        <activity android:name=".Activities.MainActivity">
+        <activity android:name=".activities.UpdateCommentActivity"></activity>
+        <activity android:name=".activities.LoginActivity" />
+        <activity android:name=".activities.CreateUserActivity" />
+        <activity android:name=".activities.CommentsActivity" />
+        <activity android:name=".activities.AddThoughtActivity" />
+        <activity android:name=".activities.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
